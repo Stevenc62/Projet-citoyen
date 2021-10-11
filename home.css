@@ -1,0 +1,96 @@
+
+@font-face {
+    font-family: 'Creepster';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('Creepster-Regular.ttf'), url(https://fonts.gstatic.com/s/creepster/v9/AlZy_zVUqJz4yMrniH4Rcn35.woff2) format('woff2');
+   
+    
+}
+
+h1{
+    
+    font-family: 'Creepster', cursive;
+    font-size: 500%;
+    
+
+    
+}
+
+.bat{
+    position: absolute;
+    right: 10%;
+    top: 7%;
+    width: 10%;
+}
+    
+.bat1{
+    position: absolute;
+    right: 20%;
+    top: 5%;
+    width: 5%;
+}
+    
+
+
+h2{
+    position: relative;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif,bold;
+}
+p{
+    position: relative;
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+.imgEnTete{
+    width:100%;
+    margin-top:10%;
+       
+      }
+.enTete {
+    position: relative;
+    text-align: center;
+    color:black;
+   
+  }
+  
+  .TitrePrincipal {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .separateur{
+      margin-top: 5%;
+      position: relative;
+      text-align: center;
+  }
+  .paragraphe{
+      margin-top:10% ;
+      margin-bottom:10% ;
+  }
+.icone{
+    width:7%;
+    margin-left: 5%;
+    margin-right:5%;
+}
+.sousTitre{
+    display:flex;
+    flex-direction: row;
+}
+.itineraire{
+    width:50%;
+}
+@media all and (max-width:1024px){
+    .imgEnTete{
+    width:100%;
+    height: 25%;
+       
+      }
+      .sousTitre{font-size:200%}
+      .itineraire{
+        width:100%;
+    }
+}
